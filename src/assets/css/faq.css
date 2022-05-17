@@ -1,0 +1,11 @@
+.faqBlock .ant-collapse{
+    margin-bottom: 40px;
+}
+.quick-support{
+    max-width: 740px;
+    text-align: center;
+    margin: auto;
+}
+.quick-support button i{
+    margin-right: 10px;
+}

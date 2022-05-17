@@ -1,0 +1,32 @@
+.worksBlock{
+    background-image: url('../images/bg-works.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+}
+.worksBlock::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    inset: 0;
+}
+.worksBlock h2{
+    color: #fff;
+}
+.worksBlock .content-holder button{
+    font-size: 40px;
+    line-height: 1;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    transition: .3s linear;
+}
+.worksBlock .content-holder button:hover{
+    box-shadow: 2px 5px 16px 0px rgba(221, 221, 221, 0.753);
+}
