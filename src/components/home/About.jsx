@@ -21,7 +21,7 @@ const items = [
 ]
 const About = () => {
   return (
-    <div className='block aboutBlock'>
+    <div id="about" className='block aboutBlock'>
         <div className='container-fluid'>
             <div className='title-holder'>
                 <h2>About us</h2>
@@ -41,7 +41,7 @@ const About = () => {
             <Row gutter={[16, 16]}>
                 {
                     items.map((item,index)=>(
-                        <Col span={8} key={index}>
+                        <Col md={{ span: 8 }} key={index}>
                              <div className='about-content'>
                                  <div className='about-content-icon'>{item.icon}</div>
                                  <h3>{item.title}</h3>

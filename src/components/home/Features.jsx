@@ -12,14 +12,14 @@ const { Meta } = Card;
 
 const Features = () => {
   return (
-    <div className='block featuresBlock bg-gray'>
+    <div id='features' className='block featuresBlock bg-gray'>
          <div className='container-fluid'>
             <div className='title-holder'>
                 <h2>Key Features and Benefits</h2>
                 <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
             </div>
             <Row gutter={[16, 16]}>
-                <Col span={8}>
+                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
                     <Card
                         hoverable
                         cover={<img alt="example" src={img1} />}
@@ -27,7 +27,7 @@ const Features = () => {
                         <Meta title="Clean and Elegant" />
                     </Card>
                 </Col>
-                <Col span={8}>
+                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
                     <Card
                         hoverable
                         cover={<img alt="example" src={img2} />}
@@ -35,7 +35,7 @@ const Features = () => {
                         <Meta title="Easy to customise" />
                     </Card>
                 </Col>
-                <Col span={8}>
+                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
                     <Card
                         hoverable
                         cover={<img alt="example" src={img3} />}
@@ -43,7 +43,7 @@ const Features = () => {
                         <Meta title="Great Support" />
                     </Card>
                 </Col>
-                <Col span={8}>
+                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
                     <Card
                         hoverable
                         cover={<img alt="example" src={img4} />}
@@ -51,7 +51,7 @@ const Features = () => {
                         <Meta title="Modern Design" />
                     </Card>
                 </Col>
-                <Col span={8}>
+                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
                     <Card
                         hoverable
                         cover={<img alt="example" src={img5} />}
@@ -59,7 +59,7 @@ const Features = () => {
                         <Meta title="Unlimited Features" />
                     </Card>
                 </Col>
-                <Col span={8}>
+                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
                     <Card
                         hoverable
                         cover={<img alt="example" src={img6} />}

@@ -1,0 +1,7 @@
+.contactBlock .ant-form{
+    max-width: 640px;
+    margin: auto;
+}
+.login-form textarea{
+    resize: none;
+}

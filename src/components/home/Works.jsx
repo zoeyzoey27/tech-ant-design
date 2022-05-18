@@ -15,7 +15,7 @@ const Works = () => {
         setIsModalVisible(false);
     };
     return (
-        <div className='block worksBlock'>
+        <div id='works' className='block worksBlock'>
             <div className='container-fluid'>
                 <div className='title-holder'>
                     <h2>How it works</h2>

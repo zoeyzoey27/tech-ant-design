@@ -47,3 +47,17 @@ p{
 .ant-layout{
   background-color: #fff !important;
 }
+.mobile-hidden{
+  display: block;
+}
+.mobile-visible{
+  display: none;
+}
+@media only screen and (max-width: 767px){
+    .mobile-hidden{
+      display: none;
+    }
+    .mobile-visible{
+      display: block;
+    }
+}
